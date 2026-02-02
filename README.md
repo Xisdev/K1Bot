@@ -2,7 +2,7 @@
 
 ![K1bot Icon](icon.png)
 
-**K1bot Ultimate** adalah proyek robotika hybrid berbasis **Arduino** dan **Android (Jetpack Compose)**. Sistem ini memungkinkan pengendalian robot secara manual (Joystick/Arrow) dan otomatis (Line Follower) dengan kemampuan **Live PID Tuning** tanpa perlu upload ulang kode ke mikrokontroler.
+**K1bot** adalah proyek robotika hybrid berbasis **Arduino** dan **Android (Jetpack Compose)**. Sistem ini memungkinkan pengendalian robot secara manual (Joystick/Arrow) dan otomatis (Line Follower) dengan kemampuan **Live PID Tuning** tanpa perlu upload ulang kode ke mikrokontroler.
 
 Proyek ini dirancang untuk fleksibilitas tinggi, kemudahan penggunaan, dan performa yang dapat disesuaikan secara *real-time*.
 
