@@ -38,14 +38,14 @@ Proyek ini dirancang untuk fleksibilitas tinggi, kemudahan penggunaan, dan perfo
 | **Communication** | Modul Bluetooth HC-05 / HC-06 |
 | **Sensors** | 5-Channel IR Line Sensor Array |
 | **Actuators** | 2x DC Gearbox Motors + Roda |
-| **Power** | Baterai Li-ion 18650 (2x atau 3x) |
-| **Extra** | Modul Relay (Optional) |
+| **Power** | Baterai Li-ion 18650 |
+| **Extra** | Modul Relay |
 
 ---
 
 ## 🔌 Wiring & Pinout
 
-Pastikan koneksi kabel sesuai dengan konfigurasi di kode program (`sketch.ino`):
+Pastikan koneksi kabel sesuai dengan konfigurasi di kode program (`k1bot.ino`):
 
 | Arduino Pin | Komponen | Keterangan |
 | :--- | :--- | :--- |
@@ -72,18 +72,11 @@ Pastikan koneksi kabel sesuai dengan konfigurasi di kode program (`sketch.ino`):
 3.  Upload file `.ino` ke board Arduino Uno.
 4.  **Penting:** Cabut kabel RX/TX Bluetooth saat proses upload agar tidak error.
 
-### 2. Android App
-1.  Buka project di **Android Studio**.
-2.  Biarkan Gradle melakukan sinkronisasi (`Sync Now`).
-3.  Hubungkan HP Android via USB (Aktifkan USB Debugging).
-4.  Klik **Run** (Play Button).
-5.  Berikan izin *Bluetooth Connect* & *Scan* saat aplikasi pertama kali dibuka.
-
 ---
 
 ## 📖 Panduan Penggunaan
 
-1.  **Koneksi:** Nyalakan Robot -> Buka App -> Klik Ikon Bluetooth -> Pilih HC-05.
+1.  **Koneksi:** Nyalakan Robot -> Buka App -> Klik Ikon Bluetooth -> Pilih HC-05 (atau nama dari modul bluetooth).
 2.  **Mode Manual:** Gunakan Joystick di kiri untuk bergerak. Gunakan tombol aksi di kanan (Lari, Putar, dll).
 3.  **Mode Auto:** Aktifkan switch **"Line Follower Mode"**. Robot akan mengabaikan joystick dan mengikuti garis secara otomatis.
 4.  **Relay:** Tekan dan tahan tombol **"Otak"** (Cyan) untuk menyalakan Relay. Lepas untuk mematikan.
@@ -111,10 +104,12 @@ Berikut penjelasan singkat parameter yang bisa diatur lewat aplikasi:
 
 Project ini dikembangkan dan di-tuning dengan penuh ❤️ oleh:
 * **Kusdinar** (Lead Developer)
-* Farid
-* Mila
-* Esti
-* Mochrendi
+* Mila (Software)
+* Helkhan (Mekanik)
+* Mochrendi (Mekanik)
+* Indra (Mekanik)
+* Farid (ELektrikal)
+* Esti (Elektrikal)
 
 ---
 
