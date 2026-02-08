@@ -102,15 +102,15 @@ Berikut penjelasan singkat parameter yang bisa diatur lewat aplikasi:
 
 ## 👥 Credits
 
-Project ini dikembangkan dan di-tuning dengan penuh ❤️ oleh:
-* **Kusdinar** (Lead Developer)
-* Mila (Software)
-* Helkhan (Mekanik)
-* Mochrendi (Mekanik)
-* Indra (Mekanik)
-* Farid (ELektrikal)
-* Esti (Elektrikal)
-
+Project ini dikembangkan dan dikerjakan dengan penuh ❤️ oleh:
+1. Kusdinar
+2. Mila Nurfadilah 
+3. Farid Fadila 
+4. R. Helkhan Sultan F
+5. Esti Fitria Wulandari
+7. Moch. Rendi 
+8. Wili M. Satya 
+9. Indra
 ---
 
 > **Disclaimer:** Pastikan baterai robot terisi penuh saat melakukan tuning PID untuk hasil yang akurat.
